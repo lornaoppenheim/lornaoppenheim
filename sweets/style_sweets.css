@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Krona+One|Montserrat');
+h1 {
+	border: black 19px;
+	margin:0px;
+	font-size:80px;
+	padding:5px;
+	text-align:center;
+	font-family:'Krona One', sans-serif;
+	letter-spacing:10px;
+	color:white;
+}
+
+.flex_contaner {
+	width:100%;
+	height:100%;
+	max-height:100%;
+	margin:0;
+	padding:0;
+	background-image: url('background2.jpg');
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	}
+	
+html,body {
+	height: 100%;
+	margin: 0;
+	padding:0;
+	}
+
+.text{
+	border: black 40px;
+	margin:10px;
+	font-size:12px;
+	padding-left:30em;
+	padding-right:30em;
+	text-align:left;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing:0px;
+	color:black;
+	}
+blockquote{
+	font-size: 150%;
+	border-left: solid purple 3px;
+	padding-left: 1.5em;
+	}
+	

@@ -1,0 +1,39 @@
+.background{
+	color: green;
+}
+
+
+#face{
+	width: 100px;
+	height: 100px;
+	background: blue;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+.eye{
+	width: 20px;
+	height: 20px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+#face:hover .eye{
+ height:5px;
+}
+
+#beak {
+	width: 0;
+	height: 0;
+	margin-left: 28px;
+    margin-top: -20px;
+	border-top: 25px solid transparent;
+	border-left: 50px solid black;
+	border-bottom: 25px solid transparent;
+}
